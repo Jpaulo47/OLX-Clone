@@ -62,7 +62,7 @@ public class AnunciosActivity extends AppCompatActivity {
                 break;
 
             case R.id.menu_anuncios:
-                startActivity( new Intent( getApplicationContext(), CadastrarAnuncioActivity.class));
+                startActivity( new Intent( getApplicationContext(), MeusAnunciosActivity.class));
                 break;
 
         }

@@ -1,13 +1,15 @@
 package com.example.olxclone.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.widget.Toolbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.ui.AppBarConfiguration;
 
 import com.example.olxclone.databinding.ActivityMeusAnunciosBinding;
-import com.google.android.material.snackbar.Snackbar;
+
+import java.util.Objects;
 
 public class MeusAnunciosActivity extends AppCompatActivity {
 
@@ -22,9 +24,12 @@ public class MeusAnunciosActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.toolbar);
+        setTitle("Meus Anúncios");
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         binding.fab.setOnClickListener(view -> {
 
+            startActivity(new Intent(getApplicationContext(), CadastrarAnuncioActivity.class));
 
         });
     }
