@@ -14,7 +14,31 @@
         android:theme="@style/Theme.OLXClone"
         tools:targetApi="31">
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.CadastrarAnuncioActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.MeusAnunciosActivity"
+            android:exported="false"
+            android:label="@string/title_activity_meus_anuncios"
+            android:parentActivityName=".activity.AnunciosActivity"
+            android:theme="@style/Theme.OLXClone.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.CadastroActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.AnunciosActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
