@@ -29,8 +29,10 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
+        android:contentDescription="@string/acessar"
         android:foregroundTint="#FFFFFF"
         android:tint="#FFFFFF"
+        app:backgroundTint="#BB86FC"
         app:srcCompat="@drawable/add_ic" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

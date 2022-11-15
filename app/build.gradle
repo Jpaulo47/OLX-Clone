@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.olxclone"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -53,4 +53,9 @@ dependencies {
 
     implementation 'com.github.BlacKCaT27:CurrencyEditText:2.0.2'
     implementation 'com.github.santalu:maskara:1.0.0'
+
+    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+    implementation 'com.synnapps:carouselview:0.1.5'
 }
