@@ -1,0 +1,2 @@
+# OLX-Clone
+Esse é o OLX Clone, um aplicativo construído afins de estudos em desenvolvimento Android, nele eu consigo fazer o cadastro e a autenticação de usuários usando as APIs do Firebase, após o usuário se cadastrar ele vai poder postar produtos de diversas categorias, o aplicativo possui um filtro, que é capaz de separar os produtos por estado e por categoria através de um banco de dados no firebase, nele eu exercito o uso de componentes como recyclerview, Spinner além de algumas libs, dentre elas a Picasso, para o carregamento de imagens. 
